@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="errorpage-title">Internal Server Error (500)</h1>
+<div class="errorpage-section">
+  <h4>Sorry, it's our fault!</h4>
+  <h4><a href="{{ url_for('main.index') }}">Flask Application</a></h4>
+</div>
+{% endblock %}
